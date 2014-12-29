@@ -1,0 +1,31 @@
+﻿Build started 12/9/2014 8:54:49 PM.
+     1>Project "C:\Users\Kamron\Desktop\RuberSystemFinal\Ruber System.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt simulator.cpp
+         simulator.cpp
+         GLM: Windows platform detected
+         GLM: Visual C++ compiler detected
+         GLM: 32 bits model
+         GLM: C++ with language extensions
+         GLM: #define GLM_FORCE_CXX98, GLM_FORCE_CXX03, GLM_LANG_CXX11 or GLM_FORCE_CXX1Y to force using a specific version of the C++ language
+         GLM: SSE2 instruction set
+         GLM: #define GLM_FORCE_PURE to avoid using platform specific instruction sets
+         GLM: Swizzling operators disabled, #define GLM_SWIZZLE to enable swizzle operators
+         GLM: .length() returns glm::length_t, a typedef of int following the GLSL specification
+         GLM: #define GLM_FORCE_SIZE_T_LENGTH for .length() to return a std::size_t
+         GLM: Core library included
+         GLM: GLM_GTC_constants extension included
+         GLM: GLM_GTC_matrix_transform extension included
+         GLM: GLM_GTC_quaternion extension included
+         GLM: GLM_GTC_type_ptr extension included
+     1>c:\users\kamron\desktop\rubersystemfinal\shape3d.hpp(273): warning C4800: 'boolean' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\kamron\desktop\rubersystemfinal\shape3d.hpp(250): warning C4715: 'Shape3D::getPosition' : not all control paths return a value
+     1>c:\users\kamron\desktop\rubersystemfinal\shape3d.hpp(307): warning C4715: 'Shape3D::getModelMatrix' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kamron\Desktop\RuberSystemFinal\Debug\Ruber System.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kamron\Desktop\RuberSystemFinal\Debug\Ruber System.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kamron\Desktop\RuberSystemFinal\Debug\Ruber System.lib" /MACHINE:X86 Debug\simulator.obj
+         Ruber System.vcxproj -> C:\Users\Kamron\Desktop\RuberSystemFinal\Debug\Ruber System.exe
+     1>Done Building Project "C:\Users\Kamron\Desktop\RuberSystemFinal\Ruber System.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00
